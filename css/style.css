@@ -9,12 +9,8 @@ body{
     background: linear-gradient(to right, #F6DFEB 0%, #F6DFEB 5%, #E4FBFF 5%, #E4FBFF 10%, #FDFAF6 10%, #FDFAF6 15%, #F6DFEB 15%, #F6DFEB 20%, #FDFAF6 20%, #FDFAF6 25%, #E4FBFF 25%, #E4FBFF 30%, #F6DFEB 30%, #F6DFEB 35%, #E4FBFF 35%, #E4FBFF 40%, #FDFAF6 40%, #FDFAF6 45%, #F6DFEB 45%, #F6DFEB 50%, #E4FBFF 50%, #E4FBFF 55%, #FDFAF6 55%, #FDFAF6 60%, #F6DFEB 60%, #F6DFEB 65%, #E4FBFF 65%, #E4FBFF 70%, #F6DFEB 70%, #F6DFEB 75%, #FDFAF6 75%, #FDFAF6 80%, #F6DFEB 80%, #F6DFEB 85%, #E4FBFF 85%, #E4FBFF 90%, #FDFAF6 90%, #FDFAF6 95%, #F6DFEB 95%, #F6DFEB 100%);
 }
 
-
-
-
-
 .title{
-    max-width: 500px;
+    max-width: 1000px;
 }
 
 h1{
@@ -24,7 +20,7 @@ h1{
     font-size: 70px;
 }
 .wrapper{
-    max-width: 1440px;
+    max-width: 800px;
     height: 1000px;
     display: flex;
     align-items: center;
@@ -97,7 +93,7 @@ h1{
     height:430px;
     display:flex;
     flex-direction: column;
-    margin:10px;
+    padding:50px;
 }
 
 .board{
@@ -135,5 +131,6 @@ h1{
 
 .left{
     margin-bottom: 50px;
+    margin-top:40px
     
 }
